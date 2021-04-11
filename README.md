@@ -12,6 +12,6 @@ url
 Clase 6 - CSS: fondos, iconos y fuentes.
 url
 
-4)Comics Card Super Heroes
+4) Comics Card Super Heroes
 Clase 7 - Modelo de cajas: propiedades, posiciones y Z-index.
 url
