@@ -16,3 +16,8 @@ https://strickerkarin.github.io/Frontend-I/LemonPie2/index.html
 4) Comics Card Super Heroes
 Clase 7 - Modelo de cajas: propiedades, posiciones y Z-index.
 https://strickerkarin.github.io/Frontend-I/CardSuperHeroes/index.html
+
+Extra) CV Karin Stricker
+CSS: fondos, iconos y fuentes. 
+Modelo de cajas: propiedades, posiciones y Z-index
+https://strickerkarin.github.io/Frontend-I/CVKarinStricker/index.html
