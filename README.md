@@ -2,7 +2,7 @@
 
 1) Lemon pie
 Clases 3 y 4 - Etiquetas y semántica. 
-https://strickerkarin.github.io/Frontend-I/LemonPie/index.html 
+[LemonPie](https://strickerkarin.github.io/Frontend-I/LemonPie/index.html) 
 
 2) CV Batman
 Clase 5 - Introducción a CSS. 
