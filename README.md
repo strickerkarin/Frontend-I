@@ -20,4 +20,5 @@ https://strickerkarin.github.io/Frontend-I/CardSuperHeroes/index.html
 Extra) CV Karin Stricker
 CSS: fondos, iconos y fuentes. 
 Modelo de cajas: propiedades, posiciones y Z-index
+
 https://strickerkarin.github.io/Frontend-I/CVKarinStricker/index.html
