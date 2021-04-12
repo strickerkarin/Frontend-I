@@ -23,7 +23,7 @@ div{
     background-color:rgb(238, 230, 230);
     position: sticky;
     text-align: center; 
-    top: 0px;
+    top: calc(-100% + 100px);
 }
 
 
