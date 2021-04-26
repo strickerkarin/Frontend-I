@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital@1&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&display=swap');
+
+nav {
+    background-color: #001D2D;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    text-align:right;
+    vertical-align: middle; 
+    
+
+}
+
+nav p{
+    color:white;
+    display: inline-block;
+    margin: 0%;
+    text-decoration: none;
+    vertical-align: middle;   
+    
+    
+}
+
+.añadir{
+    color: #FBFFFD;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    text-transform: none;
+}
+
+.agregar{
+    text-align: center;
+}
+
+.formulario{
+    background-color:#00669F;
+    border-radius: 49.0901px;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    padding-top: 0%;
+    position: relative;
+    width: 954px;
+
+}
+
+.nombre{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-left: 124px;
+    padding-top: 20px;
+    position: absolute;
+    width: 343px;
+    
+}
+
+.especie{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    margin-left: 489px;
+    padding-left: 10px;
+    padding-top: 20px;
+    position: absolute;
+    width: 343px;
+    
+}
+
+input, select, label.tipoPersonaje {
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    color: white;
+    margin: 20px 0px;
+    padding: 15px 1px;
+    width: 100%;
+}
+
+#descripcion {
+    height: 307px;
+    padding: 20px 13px 33px 10px;
+    vertical-align: none;
+}
+
+input::placeholder{
+    color:black;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.checkbox{
+    display: inline-block;
+}
+
+#añadir{
+    background-color: #1CD1B0;
+    color:black;
+    height: 87px;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight:900;
+    margin: 727px 244px 18px 244px;
+    width: 466px;
+    
+}
