@@ -13,6 +13,9 @@ Clase 6 - CSS: fondos, iconos y fuentes. -->  [Lemon Pie 2](https://strickerkari
 4) Comics Card Super Heroes
 Clase 7 - Modelo de cajas: propiedades, posiciones y Z-index. -->  [Card Super Heroes](https://strickerkarin.github.io/Frontend-I/CardSuperHeroes/index.html)
 
-  Extra) CV Karin Stricker
+   Extra) CV Karin Stricker
 CSS: fondos, iconos y fuentes 
 Modelo de cajas: propiedades, posiciones y Z-index -->  [CV Karin Stricker](https://strickerkarin.github.io/Frontend-I/CVKarinStricker/index.html)
+
+5) Formularios Super Heroes
+Clases 8, 9 y 10 - Formularios  --> [Formularios Super Heroes](https://strickerkarin.github.io/Frontend-I/CVKarinStricker/FormulariosHeroes/formCompra.html)
