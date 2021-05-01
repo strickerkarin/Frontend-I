@@ -7,22 +7,24 @@ nav {
     font-size: 16px;
     text-decoration: none;
     text-align:right;
-    vertical-align: middle; 
-    
-
+    vertical-align: middle;   
 }
 
-nav p{
+nav p {
     color:white;
     display: inline-block;
     margin: 0%;
     text-decoration: none;
-    vertical-align: middle;   
-    
-    
+    vertical-align: middle;    
 }
 
-.añadir{
+a {
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+}
+
+.añadir {
     color: #FBFFFD;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -34,42 +36,58 @@ nav p{
     text-transform: none;
 }
 
-.agregar{
+.agregar {
     text-align: center;
 }
 
-.formulario{
+.formulario {
     background-color:#00669F;
     border-radius: 49.0901px;
     color: white;
     margin: auto;
     margin-top: 40px;
     padding-bottom: 5px;
-    padding-top: 0%;
     position: relative;
     width: 954px;
-
 }
 
-.nombre{
+.nombre {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    margin-left: 124px;
+    margin-left: 90px;
     padding-top: 20px;
     position: absolute;
-    width: 343px;
-    
+    width: 343px;    
 }
 
-.especie{
+.fecha {
+    color: black;
+    font-size: 20px;
+    margin: 10px 0px;;
+    padding: 0px;
+}
+
+#fecha {
+    color: black;
+    font-size: 20px;
+    margin: 9px 0px;;
+    padding: 10px 1px;
+}
+
+.pfecha {
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+.especie {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     margin-left: 489px;
     padding-left: 10px;
     padding-top: 20px;
     position: absolute;
-    width: 343px;
-    
+    width: 343px;    
 }
 
 input, select, label.tipoPersonaje {
@@ -81,13 +99,26 @@ input, select, label.tipoPersonaje {
     width: 100%;
 }
 
-#descripcion {
-    height: 307px;
-    padding: 20px 13px 33px 10px;
-    vertical-align: none;
+#foto {
+    border:none;
+    font-size: 11px;
+    margin-left: 95px;
+    padding: 0px;
+    transform: scale(1.6);
 }
 
-input::placeholder{
+textarea {
+    color:black;
+    border: none;
+    border-radius: 12px;  
+    font-size: 20px;
+    margin-top: 17px; 
+    padding: 3px 4px 270px 13px;
+    resize: none;
+    width: 100%;
+}
+
+input::placeholder {
     color:black;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -95,18 +126,73 @@ input::placeholder{
     line-height: 25px;
 }
 
-.checkbox{
+label input.checkbox {
+    background: #FFFFFF;
+    border: 3px solid white;
+    border-radius: 12px;
     display: inline-block;
+    margin: 5px 22px 5px 0px;
+    transform: scale(2.8,2.1);
+    vertical-align: middle;
+    width: 35px;   
 }
 
-#añadir{
+label.check {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300; 
+    margin: 15px 0px;      
+}
+
+label input.radiob {
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    font-family: 'Karla',sans-serif;
+    font-weight: 300;
+    margin: 0px 10px 0px 0px;
+    padding: 13px 3px;
+    transform: scale(2);
+    vertical-align: middle;
+    width: 35px;
+}
+
+label.tipoPersonaje {
+    border: 0px solid;
+    display: block;
+    font-family: 'Karla',sans-serif;
+    font-size: 24px;
+    margin: 0px; 
+    padding: 5px 0px;
+}
+
+.poderes {
+    font-family: 'Inter', sans-serif;
+    font-size:22px;
+    font-weight: 300;
+    padding: 0px;
+}
+
+.TipoP {
+    font-family: 'Inter', sans-serif;
+    font-size:22px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+#añadir {
     background-color: #1CD1B0;
     color:black;
-    height: 87px;
     font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight:900;
+    height: 87px;
     margin: 727px 244px 18px 244px;
-    width: 466px;
-    
+    transition: all 0.4s;
+    width: 466px;    
+}
+
+#añadir:hover {
+    transform: scale(1.1);
 }

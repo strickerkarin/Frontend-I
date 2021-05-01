@@ -14,15 +14,21 @@
     font-size: 72px;
     font-weight: 700;
     margin-bottom: 50px;
+    margin-top: 0%;
+    padding-top: 0%;
 } 
+
+main {
+    padding-top: 0%;
+}
 
 input, select {
     border: solid 1.5px black;
     display: block;
-    height: 60px; 
     font-family: 'Karla', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    height: 60px; 
     margin-bottom:20px;
     padding: 10px;
     text-align: left;
@@ -35,7 +41,7 @@ input, select {
     font-weight: 400;
 }
 
-#resetear, #registrar{
+#resetear, #registrar {
     background-color: #888888;
     border: 0px white solid;
     border-radius: 23.011px;
@@ -48,20 +54,22 @@ input, select {
     margin-top: 76px;
     text-align: center;
     text-decoration: none;
+    transition:all 0.4s;
     padding-bottom: 55px;
     width: 300px;
-
-
 }
 
-#registrar{
+#registrar {
     background-color: #1CD1B0;
     color:black;
-    margin-left: 15px;
-    
+    margin-left: 15px;    
 }
 
-input::placeholder{
+#registrar:hover, #resetear:hover {
+    transform:scale(1.1);
+}
+
+input::placeholder {
     color:black;
     font-family: 'Karla', sans-serif;
     font-size: 20px;
@@ -72,26 +80,35 @@ input::placeholder{
 .ingresa {
     font-size: 22px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;    
 }
+
+.form-enlace {
+    color: black;
+    font-size: 22px;
+}
+
+
 footer p {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
-main div h2{
+main div h2 {
     font-family: 'Inter', sans-serif;
     font-size: 84px;
     font-weight: 900;
     text-transform: none;
 } 
 
-footer{
+footer {
     background-color:var(--blue);
-    color: white;
-    margin-top: 70px;
+    bottom: 0%;
+    color: white;    
+    margin-top: 400px;
     padding: 15px 0px 5px 0px;
-   
+    position: relative;
+    width: 100%;
 }
+   

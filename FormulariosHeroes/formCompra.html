@@ -30,16 +30,18 @@
 
     <main>
         <div class="formulario">
-            <form action="" method="POST">  
+            <form action="index.html">  
                 <h2 class="añadir">Añadí tu super!</h2>
                 <h3 class="agregar">Agregá tu personaje favorito completando las opciones</h3>
                 <div class="nombre">
                     <label for="nombre">*Nombre</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Gabriela" maxlength="25" required>
-                    <label for="fecha">Fecha</label>
-                    <input type="date" id="fecha" name="fecha" value="2021-04-21" min="2020-04-21" max="2022-04-21">
-                    <label for="descripcion"></label>
-                    <input type="textarea" id="descripcion" name="descripcion" placeholder="Descripción">
+                    <p class="pfecha">Fecha</p>
+                    <label for="fecha" class="fecha">
+                        <input type="date" id="fecha" name="fecha" value="2021-04-21" min="2020-04-21" max="2022-04-21">
+                    </label>
+                    <textarea placeholder="Descripción"></textarea>
+                    
                 </div>
 
                 <div class="especie">
@@ -47,21 +49,35 @@
                     <select name="especie" id="especie" required>
                         <option value="unknown" selected>Unknown</option>                        
                     </select>
-                    <label for="foto">Agregar foto</label>
-                    <input type="file" id="foto" name="foto" accept=".jpg .jpeg .png .bmp .gif">
-                    <label for="poderes">Poderes</label>
-                    <input class="checkbox" type="checkbox" name="poderes" value="Volar">
-                    <input class="checkbox" type="checkbox" name="poderes" value="SuperInteligencia">
-                    <input class="checkbox" type="checkbox" name="poderes" value="Vista de rayo láser">
-                    <input class="checkbox" type="checkbox" name="poderes" value="Billetera gorda">
-                    <label for="tipoPersonaje" class="tipoPersonaje">Tipo de personaje
-                        <input type="radio" name="tipoPersonaje" value="Héroe / Heroína">
-                        <input type="radio" name="tipoPersonaje" value="Villano / Villana">
+                    <label for="foto" class="foto">Agregar foto
+                    <input type="file" id="foto" name="foto" accept=".jpg .jpeg .png .bmp .gif"></label>
+                    <p class="poderes">Poderes</p>
+                    <label for="poderes" class="check">
+                        <input class="checkbox" type="checkbox" name="poderes" value="Volar">Volar
+                    </label>                       
+                    <label for="poderes" class="check">  
+                        <input class="checkbox" type="checkbox" name="poderes" value="SuperInteligencia">Super Inteligencia
+                    </label>
+                    <label for="poderes" class="check">
+                        <input class="checkbox" type="checkbox" name="poderes" value="Vista de rayo láser">Vista de rayo láser
+                    </label>
+                    <label for="poderes" class="check">
+                        <input class="checkbox" type="checkbox" name="poderes" value="Billetera gorda">Billetera gorda
+                    </label>
+                    
+                    <img src="img/Line 2.png" alt="linea">
+
+                    <p class="TipoP">Tipo de personaje</p>
+                    <label for="tipoPersonaje" class="tipoPersonaje">
+                        <input class="radiob" type="radio" name="tipoPersonaje" value="Héroe / Heroína">Héroe / Heroína
+                    </label>
+                    <label for="tipoPersonaje" class="tipoPersonaje">
+                        <input class="radiob" type="radio" name="tipoPersonaje" value="Villano / Villana">Villano / Villana
                     </label>
 
 
                 </div>
-                <a href="index.html"><input type="submit" value="Añadir" id="añadir"></a>
+                <input type="submit" value="Añadir" id="añadir">
             </form>
         </div>
 
