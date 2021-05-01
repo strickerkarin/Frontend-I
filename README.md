@@ -18,4 +18,10 @@ CSS: fondos, iconos y fuentes
 Modelo de cajas: propiedades, posiciones y Z-index -->  [CV Karin Stricker](https://strickerkarin.github.io/Frontend-I/CVKarinStricker/index.html)
 
 5) Formularios Super Heroes
-Clases 8, 9 y 10 - Formularios  --> [Formularios Super Heroes](https://strickerkarin.github.io/Frontend-I/FormulariosHeroes/index.html)
+Clases 8, 9, 10 y 11 - Formularios  --> [Formularios Super Heroes](https://strickerkarin.github.io/Frontend-I/FormulariosHeroes/index.html)
+
+6) Animaciones
+Clase 12 - Animaciones  --> [Animaciones](https://strickerkarin.github.io/Frontend-I/Animaciones/index.html)
+
+7) Responsive
+Clase 13 - Responsive  --> [Responsive](https://strickerkarin.github.io/Frontend-I/Responsive/index.html)
