@@ -151,7 +151,7 @@ footer ul {
   .hamburguesa {
     display: inline-block;
     font-size: 2rem;
-    padding-left: 1rem;
+    padding-left: 1.6rem;
   }
 
   header {
@@ -171,7 +171,8 @@ footer ul {
   main .container {
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;     
+    align-items: center;
+    margin: 0;
   }
   
   .delivery {
