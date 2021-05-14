@@ -73,7 +73,7 @@ main .container {
 main section .card {
   border-radius: 5px;
   height: 21.875rem; /* 350px/16px (16px=1rem) */
-  width: 30.625rem;  /* 490px/16px (16px=1rem) */
+  width: 100vw;  /* 490px/16px (16px=1rem) */
 }
 
 main section .delivery {
@@ -179,6 +179,10 @@ footer ul {
     display: flex;
     justify-content: center;
     align-items:flex-end;
+  }
+
+  .card {
+    width: 100vw;
   }
 
   .delivery h3 {
