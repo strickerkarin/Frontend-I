@@ -25,3 +25,7 @@ Clase 12 - Animaciones  --> [Animaciones](https://strickerkarin.github.io/Fronte
 
 7) Responsive
 Clase 13 - Responsive  --> [Responsive](https://strickerkarin.github.io/Frontend-I/Responsive/index.html)
+
+8) Flex
+Clase 14 - Flex  --> [Flex](https://strickerkarin.github.io/Frontend-I/Pizzeria/index.html)
+
