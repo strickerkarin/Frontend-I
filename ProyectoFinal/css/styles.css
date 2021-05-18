@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primario: #3C2313;
+    --colorSecundario: #F0A83E;
+    --colorTercero: #E5E5E5;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header-top {
+    align-items: center;
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    height: 20px;
+    justify-content:space-between;
+    width: 100vw;
+}   
+
+.header-top h3 {
+    font-size: 15px;
+    margin: 4px 30px;
+}
+
+.header-top ul {
+    display: flex;
+    margin: 4px 30px;
+}
+
+.header-top ul li {
+    font-size: 15px;
+    margin: 4px;
+}
+
+.flechaMenu {
+    margin: 0px 3px;
+}
+
+.header-bottom {
+    height: 62px;
+    background-color: var(--colorSecundario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;;
+}
+
+.LogoMarca {
+    display: flex;
+    padding: 30px;
+}
+
+.gatito {
+    width: 30px;
+    margin: 3px;
+}
+
+.perrito {
+    width: 30px;
+    margin: 3px;
+}
+
+h1 {
+    color: var(--primario);    
+}
+
+h1 span {
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    
+    font-size: 20px;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.kangrebur {
+    display: none;
+}
+
+.huella {
+    margin: 3px;
+}
+
+.login {
+    margin: 30px;
+}
+
+.login a {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.form-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px auto;  
+    
+}
+
+form {
+    width: 30vw;
+}
+
+h2.contactanos {
+    font-size: 40px;
+    color: var(--primario);
+    margin-bottom: 20px;
+}
+
+.input {
+    background-color: var(--primario);
+    width: 100%;
+    padding: 13px 5px;
+    border-radius: 15px;
+    margin: 5px;
+    color: white;
+}
+
+.input::placeholder {
+    color: #ffffff;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin: 40px 5px;    
+}
+
+#resetear {
+    background-color: #8A8787;
+    color:black;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 5px 40px;
+    text-align: center;
+    margin: 0px 10px;
+    border-color: white;   
+    transition: all 0.4s; 
+}
+
+#resetear:hover {
+    transform: scale(1.2);
+}
+
+#enviar {
+    background-color: #F0A83E;
+    color:black;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 15px;
+    padding: 8px 40px;
+    text-align: center; 
+    margin: 0px 10px; 
+    border-color: white; 
+    transition: all 0.4s;   
+}
+
+#enviar:hover {
+    transform: scale(1.2);
+}
+
+.footer-top {
+    height: 30%;
+    background-color: var(--primario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DatosContacto {
+    margin: 30px;
+}
+
+.Nosotros {
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.footer-bottom {
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.contacto img {
+    width: 18%;
+    transition: all 0.4s;
+}
+
+.contacto img:hover {
+    transform: scale(1.5);
+}
+
+.contacto div h3 {
+    color: var(--colorTercero);
+    font-size: 30px;
+}
+
+.contacto div h4 {
+    color: var(--colorTercero);
+    font-size: 15px;
+    font-weight:300;
+}
+
+.texto-contacto {   
+    margin: 0px 30px;
+}
+
+.LogoMarcaFooter {
+    display: flex;    
+}
+
+.LogoMarcaFooter h6{
+    display:flex;
+    align-items: center;
+    color:white;
+    font-size: 35px;
+    transform: scale(1.3);
+    
+
+}
+
+.LogoMarcaFooter h6 span {
+    color: var(--colorSecundario);
+}
+
+.redes ul {
+    display: flex;
+    
+}
+
+.redes {
+    align-self: flex-end;
+    padding: 10% 0%;
+    transform: scale(1.6);
+}
+
+.youtube {
+    width: 40px;
+}
+
+
+
+
+@media screen and (max-width:480px){
+    header {
+        font-size: 10px;
+    }
+    .login {
+        display: none;
+    }
+    /*.kangrebur {
+        display: inline-block;
+        color: var(--colorTercero);
+        font-size: 30px;
+    }*/
+
+    .form-box {
+        width: 100%;
+    }
+
+    .footer-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+    
+
+

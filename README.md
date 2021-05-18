@@ -32,4 +32,8 @@ Clase 14 - Flex  --> [Flex](https://strickerkarin.github.io/Frontend-I/Pizzeria/
 9) SASS
 Clase 17 - Sass  --> [SASS](https://strickerkarin.github.io/Frontend-I/BatmanCV-Sass/index.html)
 
+10) Proyecto Final
+Integrador  --> [Integrador](https://strickerkarin.github.io/Frontend-I/ProyectoFinal/index.html)
+
+
 
